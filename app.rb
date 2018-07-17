@@ -5,7 +5,7 @@ class App < Sinatra::Base
   # This is a sample static route.
   
   get '/' do 
-   "So there's no confusion"
+   "This is the homepage"
  end 
  
   get '/hello' do
