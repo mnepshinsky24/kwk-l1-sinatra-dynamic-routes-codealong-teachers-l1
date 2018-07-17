@@ -29,6 +29,7 @@ class App < Sinatra::Base
   @num2 = params[:num2].to_i 
   @answer = @num1 * @num2
   @answer.to_s
+  erb :multiply 
  end 
 end
 
